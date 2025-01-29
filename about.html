@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Lexend&family=Poppins:wght@300;400&family=Roboto&family=Space+Mono&family=Tilt+Prism&display=swap');     
+        @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:wght@300;400&family=Roboto&family=Space+Mono&family=Tilt+Prism&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');    
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="dist/output.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="" id="aboutpg">
+    
+    <div class="w-full h-full p-5 font-sans bg-white border-b border-gray-200">
+        <nav class="flex flex-row justify-between">
+        <img src="images/logo.webp" class="w-24">
+        <div class="hidden lg:block">
+            <div class="flex flex-row items-center font-semibold text-gray-700 "id="menu">
+                <a href="index.html" class="pb-2 mx-4 text-center border-b-2 border-transparent hover:border-gray-400">Home</a>
+                <a href="about.html" class="pb-2 mx-4 text-center border-b-2 border-black hover:border-gray-400">About</a>
+                <a href="work.html" class="pb-2 mx-4 text-center border-b-2 border-transparent hover:border-gray-400 ">Work</a>
+                <a href="blog.html" class="pb-2 mx-4 text-center border-b-2 border-transparent hover:border-gray-400 ">Blog</a>
+                <a href="contact.html" class="pb-2 mx-4 text-center border-b-2 border-transparent hover:border-gray-400">Contact</a>    
+                    <div class="relative inline-block text-left">
+                    <button type="button" class="inline-flex justify-center w-full px-4 pb-2 font-medium text-gray-700 bg-transparent"  id="dropdown-button" >
+                        Pages
+                        <svg class="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+            
+                    <div class="absolute right-0 hidden p-2 mt-2 origin-top-right bg-white rounded-lg shadow-lg w-52 dropdown-menu" id="dropdown-menu" >
+                        <a href="index.html" class="block px-4 py-4 text-gray-700 rounded-lg text-md hover:bg-gray-50">Home </a>
+                        <a href="about.html" class="block px-4 py-4 text-gray-700 rounded-lg text-md hover:bg-gray-50">About</a>
+                        <a href="work.html" class="block px-4 py-4 text-gray-700 rounded-lg text-md hover:bg-gray-50">Work</a>
+                        <a href="work.html" class="block px-4 py-4 text-gray-700 rounded-lg text-md hover:bg-gray-50">Case Study</a>
+                        <a href="blog.html" class="block px-4 py-4 text-gray-700 bg-gray-100 rounded-lg text-md hover:bg-gray-50">Blog</a>
+                        <a href="blog.html" class="block px-4 py-4 text-gray-700 rounded-lg text-md hover:bg-gray-50">Blog Post</a>
+                        <a href="contact.html" class="block px-4 py-4 text-gray-700 rounded-lg text-md hover:bg-gray-50">Contact</a>
+                    </div>
+                </div>
+            </div>  
+            </div>
+            <button class="p-2 px-6 font-semibold bg-gray-100 rounded-full">Book a call</button>
+            <button id="menu-button" class="ml-4 text-white lg:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </nav>
+        </div>
+
+<div class="flex justify-between w-h-full bg-slate-50">
+
+    <div class="flex flex-col w-3/5 pl-12 my-32 ">
+
+        <p class="pr-8 text-6xl font-bold leading-snug tracking-wide font-lexend">Hi, <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="249" height="22" viewBox="0 0 249 22" fill="currentColor" class="absolute z-30 -mt-3 left-40 text-sky-200 "><path d="M247.564 18.5807C241.772 13.3568 232.473 12.7526 225.225 11.4427C217.124 9.97395 208.996 8.57031 200.846 7.46093C186.542 5.51302 172.169 4.08854 157.79 3.01562C126.033 0.645827 94.0929 0.0338481 62.3387 2.36979C42.1785 3.85416 22.008 5.90885 2.32917 10.8463C-0.0155171 11.4349 0.207047 14.6719 2.6889 14.7083C22.0261 14.9896 41.3866 12.6406 60.7109 11.8568C79.9471 11.0807 99.2274 10.6719 118.484 10.9557C142.604 11.3125 166.719 12.8333 190.722 15.5156C199.956 16.5469 209.195 17.6016 218.411 18.8255C227.864 20.0807 237.259 22 246.767 20.7422C247.709 20.6198 248.426 19.3568 247.564 18.5807Z"></path></svg><span  class="relative z-30 ">I’m Jane</span></span>  and I’m a designer & developer</p>
+        <p class="pr-16 my-8 text-xl text-slate-700">Pumpkin seasonal rich froth decaffeinated trifecta organic blue panna doppio. Body a whipped lungo variety spice seasonal body press mountain con macchiato. Medium coffee single white to caramelization siphon con siphon id as con go single. So ristretto pumpkin affogato cinnamon breve turkish organic. Lait black kopi dripper spice lait cultivar robusta panna whipped and sit aromatic sugar.</p>
+         
+        <p class="pr-16 text-xl text-slate-700 ">And café frappuccino extraction filter froth sugar siphon coffee pumpkin press milk ristretto et au. Trade instant aged  bar seasonal pumpkin barista turkish shot go seasonal robusta. Strong iced lungo frappuccino espresso redeye macchiato aftertaste trade pot. Seasonal turkish mocha wings sit crema blue au and grounds eu cortado café cup. Filter viennese bar seasonal wings siphon as frappuccino go luwak single mazagran.</p>
+        <p class="py-16 text-3xl tracking-wider text-gray-600 font-mrdafoe">Jane Doe</p>
+        <div class="absolute mt-96 right-96 "><svg width="229" height="40" viewBox="0 0 229 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt-72"><g clip-path="url(#clip0_204_150)"><path d="M1 19L29.4 39L57.7 19L86.1 39L114.5 19L142.8 39L171.2 19L199.6 39L228 19" stroke="#0369A1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 19L29.4 39L57.7 19L86.1 39L114.5 19L142.8 39L171.2 19L199.6 39L228 19" stroke="black" stroke-opacity="0.2" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 1L29.4 21L57.7 1L86.1 21L114.5 1L142.8 21L171.2 1L199.6 21L228 1" stroke="#BAE6FD" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g><defs><clipPath id="clip0_204_150"><rect width="229" height="40" fill="white"></rect></clipPath></defs></svg></div>
+
+    </div>
+    <img src="images/about-jane2.png" class="w-2/5">
+    <div class="absolute w-1/2 h-full overflow-hidden rounded-full bg-sky-700 -left-40 top-32 filter blur-2xl opacity-90 mix-blend-overlay"></div>
+
+</div> 
+<div class="py-24">
+    <div class="flex px-8">
+        <div class="flex flex-col mt-8">
+            <p class="text-5xl font-semibold font-lexend ">My career <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="210" height="30" viewBox="0 0 249 22" fill="currentColor" class="absolute z-30 mt-9 left-6 text-sky-200 "><path d="M247.564 18.5807C241.772 13.3568 232.473 12.7526 225.225 11.4427C217.124 9.97395 208.996 8.57031 200.846 7.46093C186.542 5.51302 172.169 4.08854 157.79 3.01562C126.033 0.645827 94.0929 0.0338481 62.3387 2.36979C42.1785 3.85416 22.008 5.90885 2.32917 10.8463C-0.0155171 11.4349 0.207047 14.6719 2.6889 14.7083C22.0261 14.9896 41.3866 12.6406 60.7109 11.8568C79.9471 11.0807 99.2274 10.6719 118.484 10.9557C142.604 11.3125 166.719 12.8333 190.722 15.5156C199.956 16.5469 209.195 17.6016 218.411 18.8255C227.864 20.0807 237.259 22 246.767 20.7422C247.709 20.6198 248.426 19.3568 247.564 18.5807Z"></path></svg><span  class="relative z-30 text-sky-800 ">journey</span></span> so far</p>
+            <p class="py-8 text-xl">Panna french americano macchiato breve roast cinnamon cortado strong white pumpkin et single press aftertaste.</p>
+            <button class="flex flex-row w-48 px-6 py-2 font-bold bg-gray-100 rounded-full">Download CV <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="mt-1 ml-2"><title>move-layer-down</title><g fill="currentColor"><path d="M12,1a1,1,0,0,0-1,1v8H7a1,1,0,0,0-.768,1.641l5,6a1,1,0,0,0,1.536,0l5-6A1,1,0,0,0,17,10H13V2A1,1,0,0,0,12,1Z" fill="currentColor"></path><path d="M22,21H2a1,1,0,0,0,0,2H22a1,1,0,0,0,0-2Z"></path></g></svg></span></button>
+        </div>
+        <div class="grid grid-cols-2 mx-8 space-x-10 space-y-10">
+            <div class="flex flex-col mt-10 ml-10 ">
+                <div class="absolute font-mono font-bold text-gray-100 ml-52 -mt-7 text-9xl">01</div>
+                <img src="images/adobe.png " class="w-12 p-3 border border-gray-200 rounded-lg bg-gray-50">
+                <p class="py-4 text-sm font-semibold text-cyan-700">Dec 2016 - Oct 2017</p>
+                <p class="text-lg font-bold">Adobe</p>
+                <p class="py-4 text-lg text-justify text-gray-700">Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.</p>
+            </div>
+            <div class="flex flex-col ">
+                <div class="absolute ml-56 font-mono font-bold text-gray-100 -mt-7 text-9xl">02</div>
+                <img src="images/dropbox.png " class="w-12 p-3 border border-gray-200 rounded-lg bg-gray-50">
+                <p class="py-4 text-sm font-semibold text-cyan-700">Nov 2017 - Apr 2018</p>
+                <p class="text-lg font-bold">Dropbox</p>
+                <p class="py-4 text-lg text-justify text-gray-700 ">Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.</p>
+            </div>
+            <div class="flex flex-col ">
+                <div class="absolute font-mono font-bold text-gray-100 ml-52 -mt-7 text-9xl">03</div>
+                <img src="images/gumroad.png " class="w-12 p-3 border border-gray-200 rounded-lg bg-gray-50">
+                <p class="py-4 text-sm font-semibold text-cyan-700">Apr 2018 - Jan 2019</p>
+                <p class="text-lg font-bold">Gumroad</p>
+                <p class="py-4 text-lg text-justify text-gray-700">Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.</p>
+            </div>
+            <div class="flex flex-col ">
+                <div class="absolute ml-56 font-mono font-bold text-gray-100 -mt-7 text-9xl">04</div>
+                <img src="images/mailchimp.png " class="w-12 p-3 border border-gray-200 rounded-lg bg-gray-50">
+                <p class="py-4 text-sm font-semibold text-cyan-700">Jan 2019 - Mar 2020</p>
+                <p class="text-lg font-bold">Mailchimp</p>
+                <p class="py-4 text-lg text-justify text-gray-700">Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.</p>
+            </div>
+            <div class="flex flex-col ">
+                <div class="absolute font-mono font-bold text-gray-100 ml-52 -mt-7 text-9xl">05</div>
+                <img src="images/shopify.png " class="w-12 p-3 border border-gray-200 rounded-lg bg-gray-50">
+                <p class="py-4 text-sm font-semibold text-cyan-700">Mar 2020 - Present</p>
+                <p class="text-lg font-bold">Shopify</p>
+                <p class="py-4 text-lg text-justify text-gray-700">Breve macchiato bar cortado dripper shot sweet robust qui. Et café whipped go white that espresso fair origin pot cream est cup.</p>
+            </div>
+            <div class="text-gray-600 -rotate-12">
+                <p class="w-64 mt-12 ml-24 text-3xl font-gochi">I am currently here in my journey :D</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="124" height="121" viewBox="0 0 124 121" fill="none" class="ml-12 -mt-4"><g clip-path="url(#clip0_257_335)"><path d="M101.672 26.3321C96.8237 38.134 92.186 44.0573 79.0339 44.4141C70.6979 44.6403 60.8529 42.694 53.4527 38.7688C49.1632 36.4936 56.8633 35.9887 58.3238 36.046C75.2213 36.7084 91.469 47.7751 94.8076 64.9225C96.9834 76.0979 88.4245 81.9067 78.6041 84.1752C63.6278 87.6349 47.752 81.2525 36.0397 72.0991C32.1436 69.0541 19.8172 60.5149 22.0934 54.2698C23.9793 49.0954 31.7507 55.0061 34.018 56.9118C37.2506 59.6288 44.0244 65.7437 43.9149 70.3449C43.7576 76.9438 32.7995 78.0771 28.2217 77.7848C19.5283 77.2298 10.3327 73.6012 2.05876 71.0225C1.4496 70.8325 5.37871 69.9759 6.06477 69.8198C8.02976 69.3721 9.72632 68.1441 11.7325 67.8657C13.2208 67.6592 21.2769 68.287 16.2554 69.947C14.4855 70.532 2.71379 69.3189 2.58655 69.7453C2.06535 71.4868 10.2182 79.8642 11.7371 81.4008C15.3955 85.1003 14.5874 73.4626 14.2296 71.9325" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></g><defs><clipPath id="clip0_257_335"><rect width="106" height="67" fill="white" transform="matrix(-0.748497 0.663138 0.663138 0.748497 79.3407 0)"></rect></clipPath></defs></svg>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+
+</div>
+<div class="pb-36 pt-28 bg-slate-50">
+    <div class="flex flex-row w-full px-8">
+        <div class="flex flex-col w-4/5">
+            <p class="w-10/12 text-5xl font-bold leading-normal font-lexend">A tour of my gadgets and workstation</p>
+            <p class="w-9/12 py-6 text-xl text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Instant extraction mazagran milk instant milk foam café iced aftertaste iced brewed.</p>
+            <button class="flex flex-row w-56 px-4 py-2 font-semibold bg-gray-100 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="bg-blue-400" class="w-8 pr-2 text-sky-400"><g><path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"></path></g></svg>Follow me on Twitter</button>
+            
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="190" height="180" viewBox="0 0 190 180" fill="none" class="absolute right-0 z-30 mt-72"><g clip-path="url(#clip0_253_45)"><path d="M150.567 128.664L157.691 121.466" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M126.488 153.583L139.547 140.243" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M127.834 131.469L176.327 81.1082" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M103.079 157.091L112.911 146.74" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M142.062 95.6753L184.792 51.4535" stroke="#BAE6FD" stroke-opacity="0.95" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M142.062 95.6753L184.792 51.4535" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M77.6277 162.359L123.068 115.157" stroke="#BAE6FD" stroke-opacity="0.95" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M77.6277 162.359L123.068 115.157" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M92.7031 125.688L167.989 47.7732" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M61.5034 157.976L77.4424 141.48" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M134.23 61.6403L152.377 43.036" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22.8296 177.105L115.242 81.4667" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M76.2266 100.774L166.604 7.24091" stroke="#BAE6FD" stroke-opacity="0.95" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M76.2266 100.774L166.604 7.24091" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M36.3792 142.012L57.4051 120.252" stroke="#BAE6FD" stroke-opacity="0.95" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M36.3792 142.012L57.4051 120.252" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M73.1582 82.8795L131.488 22.5132" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13.6411 144.474L56.7103 99.9007" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M100.614 33.5686L131.136 1.98228" stroke="#BAE6FD" stroke-opacity="0.95" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M100.614 33.5686L131.136 1.98228" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.3926 117.626L78.3978 56.3851" stroke="#BAE6FD" stroke-opacity="0.95" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.3926 117.626L78.3978 56.3851" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M50.4067 64.4586L91.6108 21.8161" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.60767 112.891L34.2987 81.1289" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M66.3306 26.91L82.4421 10.4116" stroke="#BAE6FD" stroke-opacity="0.95" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M66.3306 26.91L82.4421 10.4116" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7.4917 87.8014L48.19 45.8579" stroke="#BAE6FD" stroke-opacity="0.95" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7.4917 87.8014L48.19 45.8579" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M37.4919 35.8599L47.3266 25.6818" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20.1963 53.7595L26.9788 46.7402" stroke="#0369A1" stroke-opacity="0.2" stroke-width="1.1533" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g><defs><clipPath id="clip0_253_45"><rect width="176" height="186.353" fill="white" transform="translate(3.01904 179.171) rotate(-90.9829)"></rect></clipPath></defs></svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="79" viewBox="0 0 80 79" fill="none" class="pr-8 mt-16 w-44"><g clip-path="url(#clip0_253_8)"><path d="M80 18.6138H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 23.9209H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 29.3069H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 34.6929H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 40.0792H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 45.3859H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 50.7723H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 56.1583H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 61.5447H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 66.8513H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 72.2377H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M80 77.6237H20.9109" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path><path d="M61.9059 61.507V0.6752H1.07428V61.507H61.9059Z" stroke="#BAE6FD" stroke-miterlimit="10"></path><path d="M61.9059 61.507V0.6752H1.07428V61.507H61.9059Z" stroke="#0369A1" stroke-opacity="0.2" stroke-miterlimit="10"></path></g><defs><clipPath id="clip0_253_8"><rect width="80" height="78.4158" fill="white" transform="matrix(-1 0 0 -1 80 78.4158)"></rect></clipPath></defs></svg>
+        
+            <img src="images/workstation-01.webp" class="z-30 w-2/5 rounded-2xl">
+        
+            <img src="images/workstation-02.webp" class="absolute z-30 w-1/4 h-[380px] mt-48 right-72 rounded-2xl">
+        
+    </div>
+
+
+</div>
+
+<div class="w-full pb-40 mb-20 pt-28">
+    <div class="flex flex-row justify-between px-8">
+        <img src="images/portrait-02.webp" class="w-2/5 rounded-2xl">
+        <div class="flex flex-col pl-20">
+            <p class="w-11/12 text-5xl font-bold tracking-wider font-lexend">A simple stack that you can <span class="text-blue-300"><svg xmlns="http://www.w3.org/2000/svg" width="339" height="31" viewBox="0 0 339 31" fill="bg-sky-300" stroke="bg-sky-400" class="absolute -mt-3 right-32 bg-sky-300 text-sky-300 "><mask id="mask0_239_1184" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="10" y="0" width="329" height="31" fill="text-sky-300"><path d="M10.1475 0.918457H338.121V30.1173H10.1475V0.918457Z" fill="white"></path></mask><g mask="url(#mask0_239_1184)"><path d="M280.105 20.3507C263.379 18.442 246.624 16.7484 229.848 15.2738C239.174 15.8156 248.495 16.3968 257.81 17.0606C257.836 17.0606 257.86 17.0642 257.883 17.0642C265.302 18.0796 272.713 19.1667 280.105 20.3507ZM166.373 6.05272C168.594 6.05272 170.812 6.04913 173.033 6.06348C179.547 6.10295 186.056 6.19982 192.566 6.34334C189.715 6.32181 186.867 6.29311 184.02 6.26799C179.368 6.22853 174.72 6.21059 170.068 6.19623C168.835 6.14242 167.604 6.09577 166.373 6.05272ZM94.3602 5.72621C110.973 4.66059 127.611 4.05063 144.252 3.89635C127.603 4.20491 110.975 4.84357 94.3602 5.72621ZM173.46 10.3583C164.324 10.0533 155.184 9.83802 146.042 9.6658C138.219 9.30341 130.391 8.97691 122.563 8.69704C129.414 8.59658 136.263 8.52482 143.112 8.47818C166.739 8.73651 190.358 9.9636 213.899 12.0769C200.42 11.3737 186.935 10.8068 173.46 10.3583ZM337.139 22.9484C315.186 20.096 293.134 17.8105 271.033 15.9555C250.91 12.9416 230.683 10.5377 210.396 8.79392C226.731 9.01996 243.09 9.41105 259.412 10.1968C270.803 11.5531 282.171 13.1102 293.502 14.9042C295.249 15.1805 295.777 13.2968 293.989 13.0134C291.621 12.6402 289.245 12.3101 286.874 11.9549C300.335 13.2466 313.779 14.7392 327.193 16.4506C329.3 16.7197 329.603 14.4844 327.512 14.1795C314.748 12.2994 301.913 10.9036 289.037 9.83802C271.243 8.09068 253.41 6.72366 235.554 5.71903C174.598 0.0608174 113.074 0.505725 52.18 7.15422C41.7917 7.49508 31.5097 8.49971 21.6034 10.8426C19.9864 11.2266 19.9631 12.2527 20.7275 12.877C20.2792 12.938 19.8335 13.0026 19.3879 13.0672C17.0013 13.3793 14.62 13.713 12.2412 14.079C9.20687 14.549 9.84432 17.8069 12.8735 17.3476C54.6805 10.9754 97.848 10.8355 140.458 11.8365C152.142 12.3532 163.821 12.9667 175.492 13.7058C227.335 16.9852 278.968 22.3851 330.337 29.6507C332.697 29.988 334.089 27.4226 331.345 26.8414C320.086 24.4661 308.772 22.2811 297.425 20.2718C297.71 20.2969 297.995 20.322 298.283 20.3472C305.025 20.9607 311.76 21.6173 318.497 22.299C321.936 22.647 325.377 22.9735 328.818 23.3036C330.298 23.4436 331.78 23.5907 333.259 23.7342C333.384 23.8347 333.542 23.9064 333.718 23.9172C334.944 23.9925 336.164 24.0679 337.385 24.1396C338.47 24.2042 337.921 23.0489 337.139 22.9484Z"></path></g></svg><span  class="relative z-30 text-sky-800 ">always trust</span></span> </p>
+            <p class="w-11/12 py-8 text-xl">I've been a software developer for over 13 years, and while my stack has shifted over the years, I kept coming back to the same technologies. The following is the stack that I've developed & honed over the years as a software developer.</p>
+            <div class="grid grid-cols-2 space-x-2 space-y-2">
+                <div class="flex flex-row p-6 mt-2 ml-2 bg-slate-50 rounded-2xl">
+                    <img src="images/rails.webp " class="w-12 h-12 p-3 bg-white border border-gray-200 rounded-lg">
+                
+                <div class="flex flex-col pl-6 ">
+                    <p class="text-lg font-semibold font-lexend">Rails</p>
+                    <p class="py-2">7+ years of experien...</p>
+                </div>
+                </div>
+                <div class="flex flex-row p-6 bg-slate-50 rounded-2xl">
+                    <img src="images/javascript.png " class="w-12 h-12 p-3 bg-white border border-gray-200 rounded-lg">
+                
+                <div class="flex flex-col pl-6">
+                    <p class="text-lg font-semibold font-lexend">Javascript</p>
+                    <p class="py-2">8+ years of experien...</p>
+                </div>
+                </div>
+                <div class="flex flex-row p-6 bg-slate-50 rounded-2xl">
+                    <img src="images/python.webp " class="w-12 h-12 p-3 bg-white border border-gray-200 rounded-lg">
+                
+                <div class="flex flex-col pl-6">
+                    <p class="text-lg font-semibold font-lexend">Python</p>
+                    <p class="py-2">4 years of experien...</p>
+                </div>
+                </div>
+                <div class="flex flex-row p-6 bg-slate-50 rounded-2xl">
+                    <img src="images/postgresql (1).png " class="w-12 h-12 p-3 bg-white border border-gray-200 rounded-lg">
+                
+                <div class="flex flex-col pl-6">
+                    <p class="text-lg font-semibold font-lexend">Postgresql</p>
+                    <p class="py-2">6 years of experien...</p>
+                </div>
+                </div>
+                <div class="flex flex-row p-6 bg-slate-50 rounded-2xl">
+                    <img src="images/tailwind-css (1).png " class="w-12 h-12 p-3 bg-white border border-gray-200 rounded-lg">
+                
+                <div class="flex flex-col pl-6">
+                    <p class="text-lg font-semibold font-lexend">Tailwind</p>
+                    <p class="py-2">3 years of experien...</p>
+                </div>
+                </div>
+                <div class="flex flex-row p-6 bg-slate-50 rounded-2xl">
+                    <img src="images/ruby.webp " class="w-12 h-12 p-3 bg-white border border-gray-200 rounded-lg">
+                
+                <div class="flex flex-col pl-6">
+                    <p class="text-lg font-semibold font-lexend">Ruby</p>
+                    <p class="py-2">9 years of experien...</p>
+                </div>
+                </div>
+                
+            </div>
+
+        </div>
+        
+    </div>
+    <div class="absolute px-12 py-8 -mt-24 bg-opacity-90 w-80 bg-sky-700 rounded-2xl left-40 ">
+        <p class="text-2xl font-bold text-white w-52">55+ Clients have loved my work</p>
+        <div class="flex flex-row py-6">
+            <img src="images/katy.webp" class="absolute w-8 h-8 border-2 rounded-full border-sky-700">
+            <img src="images/jeff.webp" class="absolute w-8 h-8 ml-6 border-2 rounded-full border-sky-700">
+            <img src="images/elaine.png" class="absolute w-8 h-8 ml-12 border-2 rounded-full border-cyan-700">
+            <img src="images/sean.webp" class="absolute w-8 h-8 ml-16 border-2 rounded-full border-sky-700">
+            <img src="images/jame.png" class="absolute w-8 h-8 ml-20 border-2 rounded-full border-sky-700">
+
+        </div>
+    </div>
+
+
+</div>
+
+<div class="px-8 py-32 text-white bg-slate-900">
+    <div class="flex flex-col items-center">
+    <p class="text-5xl font-semibold text-center font-lexend">My awards and acknowledgements</p>
+    <p class="w-2/5 px-4 py-8 text-xl text-center ">Recognitions are like tattoos, you only show them off to people you want to impress.</p>
+    </div>
+    <div class="grid grid-cols-4 my-12 ">
+        <div class="p-20 border border-gray-700">
+            <img src="images/awwwards.svg" class="w-32">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/css-design-awards.svg" class="">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/adobe.svg" class="w-28">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/behance.svg" class="w-28">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/dribbble.5f62a733.svg" class="w-24">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/logoipsum-1.9b85e2ab.svg" class="w-32">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/logoipsum-2.9785cf57.svg" class="w-32">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/logoipsum-3.5f28e55f.svg" class="w-32">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/logoipsum-4.acbccbeb.svg" class="w-32">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/logoipsum-5.fb5ef44e.svg" class="w-24">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/logoipsum-10.svg" class="w-32">
+        </div>
+        <div class="p-20 border border-gray-700">
+            <img src="images/logoipsum-11.svg" class="w-32">
+        </div>
+        
+
+
+
+
+    </div>
+
+
+
+
+</div>
+
+<div class="py-32 pl-8 pr-12">
+    <div class="flex flex-col items-center">
+        <p class="text-5xl font-semibold font-lexend">Press and Interviews</p>
+        <p class="w-2/5 px-8 py-8 text-xl text-center text-gray-700">Recognitions are like tattoos, you only show them off to people you want to impress.</p>
+    </div>
+<div class="grid w-full grid-cols-3 space-x-6 space-y-6">
+    <div class="flex flex-col p-8 mt-6 ml-6 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="0.5" width="5" height="11" rx="1"></rect><line x1="5.5" y1="4.5" x2="6.5" y2="4.5"></line><line x1="5.5" y1="7.5" x2="6.5" y2="7.5"></line><line x1="9.5" y1="4.5" x2="10.5" y2="4.5"></line><line x1="9.5" y1="7.5" x2="10.5" y2="7.5"></line><line x1="7" y1="11.5" x2="7" y2="15.502"></line><line x1="9" y1="11.5" x2="9" y2="15.502"></line><path d="M2.964,2.964a5,5,0,0,0,0,7.072" stroke="currentColor"></path><path d="M13.036,2.967a5,5,0,0,1,0,7.071" stroke="currentColor"></path></g></svg>
+            <p class="ml-2">Podcast</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">The Future of Software Engineering with Jane Doe</p>
+            <div class="flex flex-row mt-12 text-sky-700">Listen to podcast <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></div>
+            <p class="text-sm">spotify.com</p>
+    </div>
+    <div class="flex flex-col p-8 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><title>show</title><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="1.5" y="0.5" width="13" height="7"></rect><polyline points="6.5 11.5 6.5 9.5 3.5 9.5 3.5 11.5" stroke="currentColor"></polyline><polyline points="12.5 11.5 12.5 9.5 9.5 9.5 9.5 11.5" stroke="currentColor"></polyline><polyline points="3.5 15.5 3.5 13.5 0.5 13.5 0.5 15.5" stroke="currentColor"></polyline><polyline points="15.5 15.5 15.5 13.5 12.5 13.5 12.5 15.5" stroke="currentColor"></polyline><polyline points="9.5 15.5 9.5 13.5 6.5 13.5 6.5 15.5" stroke="currentColor"></polyline></g></svg>
+            <p class="ml-2">RailsConf 2022</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">Why Service Objects Aren't Evil (And Why You Should Start Using Them)</p>
+            <div class="flex flex-row mt-6 text-sky-700">Watch the talk<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></div>
+            <p class="text-sm">spotify.com</p>
+    </div>
+    <div class="flex flex-col p-8 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="0.5" width="5" height="11" rx="1"></rect><line x1="5.5" y1="4.5" x2="6.5" y2="4.5"></line><line x1="5.5" y1="7.5" x2="6.5" y2="7.5"></line><line x1="9.5" y1="4.5" x2="10.5" y2="4.5"></line><line x1="9.5" y1="7.5" x2="10.5" y2="7.5"></line><line x1="7" y1="11.5" x2="7" y2="15.502"></line><line x1="9" y1="11.5" x2="9" y2="15.502"></line><path d="M2.964,2.964a5,5,0,0,0,0,7.072" stroke="currentColor"></path><path d="M13.036,2.967a5,5,0,0,1,0,7.071" stroke="currentColor"></path></g></svg>
+            <p class="ml-2">Podcast</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">Building a Sense of Community Around Your Business - with Duncan Jones Junior</p>
+            <div class="flex flex-row mt-8 text-sky-700">Listen to podcast <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></div>
+            <p class="text-sm">spotify.com</p>
+    </div>
+    <div class="flex flex-col p-8 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="0.5" width="5" height="11" rx="1"></rect><line x1="5.5" y1="4.5" x2="6.5" y2="4.5"></line><line x1="5.5" y1="7.5" x2="6.5" y2="7.5"></line><line x1="9.5" y1="4.5" x2="10.5" y2="4.5"></line><line x1="9.5" y1="7.5" x2="10.5" y2="7.5"></line><line x1="7" y1="11.5" x2="7" y2="15.502"></line><line x1="9" y1="11.5" x2="9" y2="15.502"></line><path d="M2.964,2.964a5,5,0,0,0,0,7.072" stroke="currentColor"></path><path d="M13.036,2.967a5,5,0,0,1,0,7.071" stroke="currentColor"></path></g></svg>
+            <p class="ml-2">Podcast</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">Building a Sense of Community Around Your Business - with Duncan Jones Junior</p>
+            <div class="flex flex-row mt-12 text-sky-700">Listen to podcast <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></div>
+            <p class="text-sm">spotify.com</p>
+    </div>
+    <div class="flex flex-col p-8 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5,15.5L2.5,15.5 c-1.105,0-2-0.895-2-2v-5h4v5C4.5,14.605,3.605,15.5,2.5,15.5z"></path> <path d="M4.5,8.5v-8h11v13 c0,1.105-0.895,2-2,2h-11"></path> <line x1="7.5" y1="3.5" x2="12.5" y2="3.5" stroke="currentColor"></line> <line x1="7.5" y1="6.5" x2="12.5" y2="6.5" stroke="currentColor"></line> <line x1="7.5" y1="9.5" x2="12.5" y2="9.5" stroke="currentColor"></line> <line x1="7.5" y1="12.5" x2="9.5" y2="12.5" stroke="currentColor"></line></g></svg>
+            <p class="ml-2">Article</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">Meet the top 10 developers to watch in 2021</p>
+            <div class="flex flex-row mt-20 text-sky-700">Read the article <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></div>
+            <p class="text-sm">hackernews.com</p>
+    </div>
+    <div class="flex flex-col p-8 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5,15.5L2.5,15.5 c-1.105,0-2-0.895-2-2v-5h4v5C4.5,14.605,3.605,15.5,2.5,15.5z"></path> <path d="M4.5,8.5v-8h11v13 c0,1.105-0.895,2-2,2h-11"></path> <line x1="7.5" y1="3.5" x2="12.5" y2="3.5" stroke="currentColor"></line> <line x1="7.5" y1="6.5" x2="12.5" y2="6.5" stroke="currentColor"></line> <line x1="7.5" y1="9.5" x2="12.5" y2="9.5" stroke="currentColor"></line> <line x1="7.5" y1="12.5" x2="9.5" y2="12.5" stroke="currentColor"></line></g></svg>
+            <p class="ml-2">Press</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">How much money can a web developer with 100k subscribers on Youtube make with AdSense, affiliates and sponsors?</p>
+            <div class="flex flex-row text-sky-700">Read the article <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></div>
+            <p class="text-sm">businessinsider.com</p>
+    </div>
+    <div class="flex flex-col p-8 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5,15.5L2.5,15.5 c-1.105,0-2-0.895-2-2v-5h4v5C4.5,14.605,3.605,15.5,2.5,15.5z"></path> <path d="M4.5,8.5v-8h11v13 c0,1.105-0.895,2-2,2h-11"></path> <line x1="7.5" y1="3.5" x2="12.5" y2="3.5" stroke="currentColor"></line> <line x1="7.5" y1="6.5" x2="12.5" y2="6.5" stroke="currentColor"></line> <line x1="7.5" y1="9.5" x2="12.5" y2="9.5" stroke="currentColor"></line> <line x1="7.5" y1="12.5" x2="9.5" y2="12.5" stroke="currentColor"></line></g></svg>
+            <p class="ml-2">Article</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">14 Things You Should Know Before Starting With Ruby On Rails</p>
+            <div class="flex flex-row text-sky-700">Read the article <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></div>
+            <p class="text-sm">gorails.com</p>
+    </div>
+    <div class="flex flex-col p-8 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="0.5" width="5" height="11" rx="1"></rect><line x1="5.5" y1="4.5" x2="6.5" y2="4.5"></line><line x1="5.5" y1="7.5" x2="6.5" y2="7.5"></line><line x1="9.5" y1="4.5" x2="10.5" y2="4.5"></line><line x1="9.5" y1="7.5" x2="10.5" y2="7.5"></line><line x1="7" y1="11.5" x2="7" y2="15.502"></line><line x1="9" y1="11.5" x2="9" y2="15.502"></line><path d="M2.964,2.964a5,5,0,0,0,0,7.072" stroke="currentColor"></path><path d="M13.036,2.967a5,5,0,0,1,0,7.071" stroke="currentColor"></path></g></svg>
+            <p class="ml-2">Podcast</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">Flow State for Software Engineers – Cultivate flow with the people who build software</p>
+            <div class="flex flex-row text-sky-700">Listen to podcast <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></div>
+            <p class="text-sm">youtube.com</p>
+    </div>
+    <div class="flex flex-col p-8 border border-gray-200 rounded-2xl bg-gray-50">
+        <div class="flex flex-row text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="mt-1"><title>show</title><g stroke-width="1.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="1.5" y="0.5" width="13" height="7"></rect><polyline points="6.5 11.5 6.5 9.5 3.5 9.5 3.5 11.5" stroke="currentColor"></polyline><polyline points="12.5 11.5 12.5 9.5 9.5 9.5 9.5 11.5" stroke="currentColor"></polyline><polyline points="3.5 15.5 3.5 13.5 0.5 13.5 0.5 15.5" stroke="currentColor"></polyline><polyline points="15.5 15.5 15.5 13.5 12.5 13.5 12.5 15.5" stroke="currentColor"></polyline><polyline points="9.5 15.5 9.5 13.5 6.5 13.5 6.5 15.5" stroke="currentColor"></polyline></g></svg>
+            <p class="ml-2">RailsConf 2021</p>
+        </div> 
+            <p class="py-4 text-xl font-semibold font-lexend">Extending and Embedding Rich Media in the Rails Universe with the Trix Editor</p>
+            <div class="flex flex-row text-sky-700 ">Watch the talk <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 mt-1 ml-1"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span></div>
+            <p class="text-sm">youtube.com</p>
+    </div>
+
+</div>
+
+
+</div>
+
+
+    <div class="absolute px-12 py-16 mx-8 rounded-2xl " style="background-image: url(images/newsletter-bg.webp);">
+    
+        <div class="flex flex-row items-center justify-between ">
+        <div class="flex flex-col w-full">
+            <p class="text-5xl font-semibold text-white font-lexend">Subscribe to my newsletter</p>
+            <p class="w-10/12 mt-6 text-lg text-white">Join 10,000+ designers and get creative site breakdowns, design musings and tips every Monday.</p>
+        </div>
+        <div class="flex flex-row justify-between w-full h-16 border border-blue-300 rounded-full bg-opacity-20 bg-sky-100">
+        <input type="text" placeholder=" Enter your email " class="px-6 text-sm text-white placeholder-white bg-transparent outline-none">
+        <button class="px-6 py-1 m-2 font-semibold text-white bg-gray-700 rounded-full">Subscribe</button>
+    
+    </div>
+    </div>
+    </div>
+    <div class="w-full h-full px-8 mt-44 pt-44 bg-slate-900">
+        <div class="flex flex-row pb-16">
+        <div  class="flex flex-col ">
+        <p class="py-8 text-5xl font-semibold leading-snug text-white font-lexend">Lets make something great together</p>
+        <button class="flex flex-row justify-start w-40 px-6 py-2 font-semibold bg-white rounded-full">Book a call <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 pl-2"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></button>
+        </div>
+        <div class="flex flex-col items-end">
+        <p class="w-3/5 py-8 mr-16 text-xl text-white ">Iced pumpkin ristretto irish trifecta robusta trade froth affogato barista con barista cappuccino filter roast.</p>
+        <div class="grid grid-cols-3 space-x-2 space-y-2">
+            <div class="flex flex-row h-10 px-6 mt-2 ml-2 text-center bg-transparent border border-gray-600 rounded-full w-36">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" class="mt-3"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path></svg>
+                <p class="pl-2 mt-2 text-white">Email me</p>
+            </div>        
+            <div class="flex flex-row px-6 py-2 text-center bg-transparent border border-gray-600 rounded-full w-36">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white" class="mt-1"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M12,24C5.4,24,0,18.6,0,12S5.4,0,12,0s12,5.4,12,12S18.6,24,12,24z M22.1,13.6c-0.4-0.1-3.2-1-6.4-0.4c1.3,3.7,1.9,6.7,2,7.3C20,19,21.7,16.5,22.1,13.6z M16,21.5c-0.2-0.9-0.7-4-2.2-7.8 c0,0,0,0-0.1,0c-5.8,2-7.9,6-8,6.4c1.7,1.4,3.9,2.2,6.3,2.2C13.4,22.3,14.8,22,16,21.5z M4.4,18.9c0.2-0.4,3-5.1,8.3-6.8 c0.1,0,0.3-0.1,0.4-0.1c-0.3-0.6-0.5-1.2-0.8-1.7c-5.1,1.5-10.1,1.5-10.5,1.5c0,0.1,0,0.2,0,0.3C1.8,14.6,2.7,17.1,4.4,18.9z M2,9.9 c0.5,0,4.7,0,9.5-1.2c-1.7-3-3.5-5.6-3.8-5.9C4.8,4.1,2.6,6.7,2,9.9z M9.6,2.1c0.3,0.4,2.1,2.9,3.8,6c3.6-1.4,5.2-3.4,5.4-3.7 C17,2.7,14.6,1.8,12,1.8C11.2,1.8,10.4,1.9,9.6,2.1z M19.9,5.5c-0.2,0.3-1.9,2.5-5.7,4c0.2,0.5,0.5,1,0.7,1.5 c0.1,0.2,0.1,0.4,0.2,0.5c3.4-0.4,6.8,0.3,7.1,0.3C22.2,9.5,21.4,7.3,19.9,5.5z"></path></g></svg>            
+                <p class="pl-2 text-white">Dribble</p>
+            </div>        
+            <div class="flex flex-row px-6 py-2 text-center bg-transparent border border-gray-600 rounded-full w-36">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white" class="mt-1"><g><path d="M12,2.982c2.937,0,3.285.011,4.445.064a6.072,6.072,0,0,1,2.042.379,3.4,3.4,0,0,1,1.265.823,3.4,3.4,0,0,1,.823,1.265,6.072,6.072,0,0,1,.379,2.042c.053,1.16.064,1.508.064,4.445s-.011,3.285-.064,4.445a6.072,6.072,0,0,1-.379,2.042,3.644,3.644,0,0,1-2.088,2.088,6.072,6.072,0,0,1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.072,6.072,0,0,1-2.042-.379,3.4,3.4,0,0,1-1.265-.823,3.4,3.4,0,0,1-.823-1.265,6.072,6.072,0,0,1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.072,6.072,0,0,1,.379-2.042,3.4,3.4,0,0,1,.823-1.265,3.4,3.4,0,0,1,1.265-.823,6.072,6.072,0,0,1,2.042-.379c1.16-.053,1.508-.064,4.445-.064M12,1c-2.987,0-3.362.013-4.535.066a8.108,8.108,0,0,0-2.67.511A5.625,5.625,0,0,0,1.577,4.8a8.108,8.108,0,0,0-.511,2.67C1.013,8.638,1,9.013,1,12s.013,3.362.066,4.535a8.108,8.108,0,0,0,.511,2.67A5.625,5.625,0,0,0,4.8,22.423a8.108,8.108,0,0,0,2.67.511C8.638,22.987,9.013,23,12,23s3.362-.013,4.535-.066a8.108,8.108,0,0,0,2.67-.511A5.625,5.625,0,0,0,22.423,19.2a8.108,8.108,0,0,0,.511-2.67C22.987,15.362,23,14.987,23,12s-.013-3.362-.066-4.535a8.108,8.108,0,0,0-.511-2.67A5.625,5.625,0,0,0,19.2,1.577a8.108,8.108,0,0,0-2.67-.511C15.362,1.013,14.987,1,12,1Z"></path><path d="M12,6.351A5.649,5.649,0,1,0,17.649,12,5.649,5.649,0,0,0,12,6.351Zm0,9.316A3.667,3.667,0,1,1,15.667,12,3.667,3.667,0,0,1,12,15.667Z"></path><circle cx="17.872" cy="6.128" r="1.32"></circle></g></svg>            
+                <p class="pl-2 text-white">Instagram</p>
+            </div>        
+            <div class="flex flex-row px-6 py-2 text-center bg-transparent border border-gray-600 rounded-full w-36">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white" class="mt-1"><g><path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"></path></g></svg>            
+                <p class="pl-2 text-white">Twitter</p>
+            </div>        
+            <div class="flex flex-row px-6 py-2 text-center bg-transparent border border-gray-600 rounded-full w-36">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="white" class="mt-1"><path d="M16.5128 0H0.717949C0.287179 0 0 0.266667 0 0.666667V15.3333C0 15.7333 0.287179 16 0.717949 16H16.5128C16.9436 16 17.2308 15.7333 17.2308 15.3333V0.666667C17.2308 0.266667 16.9436 0 16.5128 0ZM5.09744 13.6667H2.58462V6H5.16923V13.6667H5.09744ZM3.80513 4.93333C3.01538 4.93333 2.29744 4.33333 2.29744 3.53333C2.29744 2.8 2.94359 2.13333 3.80513 2.13333C4.59487 2.13333 5.31282 2.73333 5.31282 3.53333C5.31282 4.33333 4.66667 4.93333 3.80513 4.93333ZM14.7179 13.6667H12.1333V9.93333C12.1333 9.06667 12.1333 7.93333 10.841 7.93333C9.47692 7.93333 9.33333 8.86667 9.33333 9.86667V13.6667H6.74872V6H9.18974V7.06667C9.54872 6.46667 10.3385 5.86667 11.6308 5.86667C14.2154 5.86667 14.7179 7.46667 14.7179 9.53333V13.6667Z"></path></svg>            
+                <p class="pl-2 text-white">LinkedIn</p>
+            </div>        
+            <div class="flex flex-row px-8 py-2 text-center bg-transparent border border-gray-600 rounded-full w-36">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="white" class="mt-1"><g clip-path="url(#clip0_315_596)"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0.200195C3.6 0.200195 0 3.8002 0 8.2002C0 11.7335 2.26667 14.7335 5.46667 15.8002C5.86667 15.8669 6 15.6002 6 15.4002C6 15.2002 6 14.7335 6 14.0669C3.8 14.5335 3.33333 13.0002 3.33333 13.0002C3 12.0669 2.46667 11.8002 2.46667 11.8002C1.66667 11.3335 2.46667 11.3335 2.46667 11.3335C3.26667 11.4002 3.66667 12.1335 3.66667 12.1335C4.4 13.3335 5.53333 13.0002 6 12.8002C6.06667 12.2669 6.26667 11.9335 6.53333 11.7335C4.73333 11.5335 2.86667 10.8669 2.86667 7.8002C2.86667 6.93353 3.2 6.2002 3.66667 5.66686C3.66667 5.4002 3.33333 4.6002 3.8 3.53353C3.8 3.53353 4.46667 3.33353 6 4.33353C6.66667 4.13353 7.33333 4.06686 8 4.06686C8.66667 4.06686 9.33333 4.13353 10 4.33353C11.5333 3.26686 12.2 3.53353 12.2 3.53353C12.6667 4.66686 12.3333 5.46686 12.2667 5.66686C12.8 6.2002 13.0667 6.93353 13.0667 7.8002C13.0667 10.8669 11.2 11.5335 9.4 11.7335C9.66667 12.0002 9.93333 12.4669 9.93333 13.2002C9.93333 14.2669 9.93333 15.1335 9.93333 15.4002C9.93333 15.6002 10.0667 15.8669 10.4667 15.8002C13.6667 14.7335 15.9333 11.7335 15.9333 8.2002C16 3.8002 12.4 0.200195 8 0.200195Z"></path></g><defs><clipPath id="clip0_315_596"><rect width="16" height="16" fill="white"></rect></clipPath></defs></svg>            
+                <p class="pl-2 text-white">Github</p>
+            </div>        
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    
+    <div class="flex flex-row justify-between py-12 border-t border-gray-600">
+        <div>
+            <ul class="flex flex-row items-center font-semibold text-white">
+                <a href="index.html" class="pr-4">Home</a>
+                <a href="about.html" class="px-4">About</a>
+                <a href="work.html" class="px-4">Work</a>
+                <a href="blog.html" class="px-4">Blog</a>
+                <a href="contact.html" class="px-4">Contact</a>
+            </ul>
+        </div>
+        <p class="text-lg text-gray-500">© 2023 Tanmayie Patil. All rights reserved.</p>
+    </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</body>
+</html>
