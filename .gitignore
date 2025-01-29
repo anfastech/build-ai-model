@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.env
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
