@@ -1,5 +1,6 @@
 import('tailwindcss').Config
 module.exports = {
+  important: true,
   content: ['.index.html', 'work.html', 'contact.html', 'index.js','about.html','blog.html',
                 ],
   theme: {

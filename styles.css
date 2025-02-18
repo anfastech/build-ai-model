@@ -12,3 +12,21 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+        .institution-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        
+        .institution-card.active .institution-details {
+            max-height: 200px;
+        }
+        
+        .chevron {
+            transition: transform 0.3s ease;
+        }
+        
+        .institution-card.active .chevron {
+            transform: rotate(90deg);
+        }
